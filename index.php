@@ -35,9 +35,9 @@
 			$api_result = file_get_contents($twitter_search_uri);
 			$result = json_decode($api_result);
 
-			print '<pre>';
-			print_r($result);
-			print '</pre>';
+			//print '<pre>';
+			//print_r($result);
+			//print '</pre>';
 
 			if (sizeof($result->results)) {
 				$have_they = 1;
